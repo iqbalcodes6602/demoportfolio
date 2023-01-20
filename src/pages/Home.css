@@ -1,0 +1,182 @@
+.map-img{
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+}
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    color: white;
+    background-image: url("../img/workspace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-top {
+    font-size: 2rem;
+}
+
+.main-body {
+    font-size: 4rem;
+}
+
+.main-bottom {
+    font-size: 2rem;
+}
+
+hr {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.btn-hire {
+    background-color: #66FCF1;
+    border: 2.5px solid #66FCF1;
+    color: #0B1522;
+    border-radius: 20px;
+    padding: 12px;
+    margin: 15px 0px;
+    width: 15%;
+}
+
+.btn-hire:hover {
+    background-color: transparent;
+    color: #66FCF1;
+    transition: .3s ease;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.tag-home{
+    color: #66FCF1;
+}
+
+.tag-home .typewrite {
+    text-decoration: none;
+    color: #66FCF1;
+    pointer-events: none;
+    cursor: text;
+}
+
+
+.navContainer {
+    display: none;
+}
+
+
+@media (max-width: 920px) {
+    .sideContainer {
+        margin-left: -40vw;
+    }
+
+    .navContainer {
+        display: block;
+    }
+
+    .main-content {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*light mode starts here*/
+.home-light {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-light {
+    color: white;
+    background-image: url("../img/workspace_light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-top-light {
+    font-size: 2rem;
+}
+
+.main-body-light {
+    font-size: 4rem;
+
+}
+
+.main-bottom-light {
+    font-size: 2rem;
+}
+
+.btn-hire-light {
+    background-color: #df4c73;
+    border: 2.5px solid #df4c73;
+    color: #0B1522;
+    border-radius: 20px;
+    padding: 12px;
+    margin: 15px 0px;
+    width: 15%;
+}
+
+.btn-hire-light:hover {
+    background-color: transparent;
+    color: #df4c73;
+    transition: .3s ease;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.navContainer-light {
+    display: none;
+}
+.tag-home-light{
+    color: #df4c73;
+}
+.tag-home-light .typewrite {
+    text-decoration: none;
+    color: #df4c73;
+    pointer-events: none;
+    cursor: text;
+}
+
+@media (max-width: 920px) {
+    .sideContainer-light {
+        margin-left: -40vw;
+    }
+
+    .navContainer-light {
+        display: block;
+    }
+
+    .main-content-light {
+        margin-left: 0px;
+    }
+}

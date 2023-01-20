@@ -1,0 +1,141 @@
+.aboutme{
+    display: flex;
+    flex-direction: column;
+}
+.main-content-about {
+    background-color: #0B1522;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    padding: 20px;
+    height: 100vh;
+    text-align: right;
+}
+.main-top-about{
+    font-size: 2rem;
+    color: #66FCF1;
+}
+.main-body-about{
+    font-size: 1.5rem;
+    color: #999999;
+}
+.hr-about {
+    border: 1px solid #999999;
+    background-color: #999999;
+}
+.page-btn{
+    margin: 10px 0px 10px 0px;
+}
+.d-button{
+    background-color: #66FCF1;
+    border: 2.5px solid #66FCF1;
+    border-radius: 50px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0B1522;
+    width: 150px;
+    margin: 40px 0px 0px 40px;
+}
+.d-button:hover{
+    background-color: transparent;
+    color: #66FCF1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+@media ( max-width: 920px){
+    .sideContainer{
+        margin-left: -40vw;
+    }
+    .navContainer{
+        display: block;
+    }
+    .main-content-about{
+        margin-left: 0px;
+        margin-top: 30px;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutme-light{
+    display: flex;
+    flex-direction: column;
+}
+.main-content-about-light {
+    background-color: #f6f6f2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    padding: 20px;
+    height: 100vh;
+    text-align: right;
+}
+.main-top-about-light{
+    font-size: 2rem;
+    color: #6fb3b8;
+}
+.main-body-about-light{
+    font-size: 1.5rem;
+    color: #999999;
+}
+.hr-about-light {
+    border: 1px solid #999999;
+    background-color: #999999;
+}
+.page-btn-light{
+    margin: 10px 0px 10px 0px;
+}
+.d-button-light{
+    background-color: #6fb3b8;
+    border: 2.5px solid #6fb3b8;
+    border-radius: 50px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #f6f6f2;
+    width: 150px;
+    margin: 40px 0px 0px 40px;
+}
+.d-button-light:hover{
+    background-color: transparent;
+    color: #6fb3b8;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+@media ( max-width: 920px){
+    .sideContainer-light{
+        margin-left: -40vw;
+    }
+    .navContainer-light{
+        display: block;
+    }
+    .main-content-about-light{
+        margin-left: 0px;
+        margin-top: 30px;
+        height: 100%;
+    }
+}

@@ -1,0 +1,179 @@
+.works {
+    display: flex;
+    flex-direction: column;
+    background-color: #0B1522;
+    background-color: #0B1522;
+}
+
+.main-content-works {
+    background-color: #0B1522;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    padding: 20px;
+    height: 100vh;
+    text-align: center;
+    height: 100%;
+}
+
+.main-top-works {
+    font-size: 2rem;
+    color: #66FCF1;
+}
+
+.main-body-works {
+    font-size: 1.5rem;
+    color: #999999;
+}
+
+hr {
+    border: 1px solid #999999;
+    background-color: #999999;
+}
+
+.mywork-images {
+    min-width: 250px;
+    height: 40vh;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.work-btn-changer-inactive {
+    margin: 10px;
+    background-color: transparent;
+    border: 2.5px solid #66FCF1;
+    color: #66FCF1;
+    padding: 5px;
+    min-width: 15vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.work-btn-changer-active {
+    margin: 10px;
+    cursor: pointer;
+    background-color: #66FCF1;
+    color: #1F2833;
+    transition: .3s ease;
+    padding: 5px;
+    min-width: 15vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 920px) {
+    .sideContainer {
+        margin-left: -40vw;
+    }
+
+    .navContainer {
+        display: block;
+    }
+
+    .main-content-works {
+        margin-left: 0px;
+        margin-top: 30px;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.works-light {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-works-light {
+    background-color: #f6f6f2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    padding: 20px;
+    height: 100vh;
+    text-align: center;
+    height: 100%;
+}
+
+.main-top-works-light {
+    font-size: 2rem;
+    color: #6fb3b8;
+}
+
+.main-body-works-light {
+    font-size: 1.5rem;
+    color: #999999;
+}
+
+hr {
+    border: 1px solid #999999;
+    background-color: #999999;
+}
+
+.mywork-images-light {
+    min-width: 250px;
+    height: 40vh;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.work-btn-changer-light-inactive {
+    margin: 10px;
+    background-color: transparent;
+    border: 2.5px solid #df4c73;
+    color: #df4c73;
+    padding: 5px;
+    min-width: 15vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.work-btn-changer-light-active {
+    margin: 10px;
+    cursor: pointer;
+    background-color: #df4c73;
+    color: #f6f6f2;
+    transition: .3s ease;
+    padding: 5px;
+    min-width: 15vw;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+}
+
+
+
+@media (max-width: 920px) {
+    .sideContainer-light {
+        margin-left: -40vw;
+    }
+
+    .navContainer-light {
+        display: block;
+    }
+
+    .main-content-works-light {
+        margin-left: 0px;
+        margin-top: 30px;
+        height: 100%;
+    }
+}

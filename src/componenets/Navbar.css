@@ -1,0 +1,72 @@
+.nav-logo{
+    margin-top: 10px;
+    width: 70px;
+}
+.navbar{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #0f1318;
+    color: #66FCF1;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 20px 0px 20px;
+    position: fixed;
+    border-bottom: 1px solid black;
+    box-shadow: 0.5px 0.5px 15px 0.5px black;
+}
+.navbar-middle{
+    font-size: 20px;
+    display: inline;
+}
+.navbar-left{
+    cursor: pointer;
+    z-index: 1000;
+}
+.navbar-right{
+    cursor: pointer;
+}
+.toggleSidebar{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*light mode starts here*/
+
+.navbar-light{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #388087;
+    color: #66FCF1;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 20px 0px 20px;
+    position: fixed;
+    border-bottom: 1px solid #388087;
+    box-shadow: 0.5px 0.5px 15px 0.5px black;
+}
+.navbar-middle-light{
+    font-size: 20px;
+    display: inline;
+}
+.navbar-left-light{
+    cursor: pointer;
+    z-index: 1000;
+}
+.navbar-right-light{
+    cursor: pointer;
+}
+.toggleSidebar-light{
+    display: none;
+}

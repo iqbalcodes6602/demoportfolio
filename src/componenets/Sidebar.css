@@ -1,0 +1,163 @@
+.sidebar{
+    position: fixed;
+    background-color: #1F2833;
+    color: white;
+    height: 100vh;
+    width: 20vw;
+    border-right:2px solid #45A29E;
+}
+
+.sidebar-top{
+    justify-content: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.image-side{
+    height: 25vh;
+    min-width: 25vh;
+    border-radius: 20vh;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 2px solid #45A29E;
+}
+
+
+
+
+.sidebar-links{
+    justify-content: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    width: 60%;
+}
+.side-btn{
+    background-color: transparent;
+    border: 2.5px solid #66FCF1;
+    color: #66FCF1;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px 0px;
+    width: 100%;
+}
+.side-btn:hover{
+    cursor: pointer;background-color: #66FCF1;
+    color: #1F2833;
+    transition: .3s ease;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media ( max-width: 920px){
+    .sidebar{
+        width: 30%;
+        box-shadow: 0.5px 0.5px 15px 0.5px black;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*light mode starts here*/
+.sidebar-light{
+    position: fixed;
+    background-color: #e2f0f9;
+    color: black;
+    height: 100vh;
+    width: 20vw;
+    border-right:2px solid #df4c73;
+}
+
+.sidebar-top-light{
+    justify-content: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.image-side-light{
+    height: 25vh;
+    min-width: 25vh;
+    border-radius: 20vh;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 2px solid #df4c73;
+}
+
+
+
+
+.sidebar-links-light{
+    justify-content: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+ul-light{
+    list-style-type: none;
+    text-align: center;
+    width: 60%;
+}
+.side-btn-light{
+    background-color: transparent;
+    border: 2.5px solid #df4c72;
+    color: #df4c72;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px 0px;
+    width: 100%;
+}
+.side-btn-light:hover{
+    cursor: pointer;
+    background-color: #df4c72;
+    color: #e2f0f9;
+    transition: .3s ease;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media ( max-width: 920px){
+    .sidebar-light{
+        width: 30%;
+        box-shadow: 0.5px 0.5px 15px 0.5px black;
+    }
+}
